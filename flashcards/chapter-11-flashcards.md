@@ -1,0 +1,16 @@
+## Chapter 11: Responsible AI, Platform Thinking, and Security for Digital Products — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | When should a PM choose deterministic rules over ML for a feature? | When the logic is finite, exact, and must be 100% consistent/auditable (e.g., tax calc, eligibility rules). Exam tip: 'exact table lookup' in a scenario = rules, not ML. |
+| 2 | When is ML the right choice over deterministic logic? | When patterns are too numerous, fuzzy, or evolving to hand-code, and inputs vary continuously (e.g., fraud scoring, image recognition). Exam tip: 'thousands of variables, evolving patterns' = ML. |
+| 3 | HTTP status code for rate limit exceeded? | 429 Too Many Requests. Exam tip: PMs must define retry-after/backoff behavior in the API contract, not just the limit itself. |
+| 4 | Semantic versioning format for APIs? | MAJOR.MINOR.PATCH. Breaking changes require a MAJOR bump. Exam tip: renaming/removing a required field = breaking change = new major version + deprecation window. |
+| 5 | Confidence threshold trade-off in AI moderation/decisioning features? | Higher threshold = fewer false positives but more false negatives (missed issues). Exam tip: threshold is a business risk decision the PM must own, not a default engineering setting. |
+| 6 | What triggers a mandatory Trust & Safety / Ethics review for an AI feature? | Automated action on sensitive/harm-related content, decisions affecting legal or financial outcomes, or use of sensitive data (health, biometric, minors). Exam tip: PM should flag proactively, not wait for legal. |
+| 7 | PII vs. anonymized vs. pseudonymized data — key PM distinction? | PII directly identifies a person. Pseudonymized can be re-linked via a separate key (still regulated). Anonymized cannot be re-linked (out of PII scope). Exam tip: pseudonymized ≠ anonymized under GDPR. |
+| 8 | Safe vs. breaking API change? | Safe: adding a new optional field/endpoint. Breaking: removing/renaming a field, changing a data type, or changing required params. Exam tip: only additive changes are allowed within the same major version. |
+| 9 | Rate limiting strategies a PM should know? | Fixed window, sliding window, token bucket. Exam tip: token bucket allows short bursts while enforcing average rate — best for bursty-but-stable-average traffic. |
+| 10 | Consent requirement for AI features that use personal data? | Explicit opt-in required before using personal data to train or personalize models, especially under GDPR/CCPA. Exam tip: default consent must never be pre-checked/opt-out. |
+| 11 | What must a PM define before launching a non-deterministic AI feature? | Acceptable error/false-positive rate, a human-review fallback path, and the confidence threshold for auto-action vs. escalation. Exam tip: 100% accuracy is not achievable — PM defines 'good enough' with stakeholders. |
+| 12 | Access control principle for PII used in AI training/features? | Principle of least privilege — only roles/services with a defined need get access, logged and time-limited. Exam tip: 'who should access raw training data' → only those with defined need, not the whole eng team. |

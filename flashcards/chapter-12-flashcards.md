@@ -1,0 +1,16 @@
+## Chapter 12: Full Exam Simulation and Time-Management Strategy — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | CDPM full exam format: total questions and total time? | ~120 questions in ~120 minutes. Budget ~60 seconds/question. Exam tip: falling more than ~10 questions behind pace by the halfway mark means you must speed up before starting the flagged review pass. |
+| 2 | Two-pass technique — Pass 1 vs Pass 2 | Pass 1: answer every confident question, flag uncertain ones, never stall. Pass 2: after reaching the end, return only to flagged questions with remaining time. Exam tip: never start Pass 2 before finishing Pass 1. |
+| 3 | Keyword 'BEST' vs 'FIRST' in a scenario stem | 'BEST' = judgment among multiple valid options, pick the strongest fit. 'FIRST' = sequencing, pick the earliest correct step even if others are also eventually correct. Exam tip: stems combining both test order-of-operations. |
+| 4 | Distractor pattern: 'doesn't meet all requirements' | The option satisfies part of the scenario but misses an explicit constraint (budget, timeline, validation stage). Exam tip: re-scan the stem for every constraint before eliminating — these distractors often satisfy 2 of 3 requirements. |
+| 5 | Kano Model — 4 categories | Must-be (Basic): absence dissatisfies, presence unnoticed. Performance: satisfaction scales with functionality. Attractive (Delighter): presence delights, absence unnoticed. Indifferent: no effect either way. Exam tip: 'expected but invisible when present' = Must-be, not Indifferent. |
+| 6 | RICE formula | RICE = (Reach × Impact × Confidence) / Effort. Exam tip: use RICE when per-feature reach and effort estimates exist; it does NOT account for cost of delay. |
+| 7 | WSJF formula | WSJF = Cost of Delay / Job Size (Duration). Cost of Delay = Business Value + Time Criticality + Risk Reduction/Opportunity Enablement. Exam tip: choose WSJF when the scenario names cost of delay or a SAFe/flow-based context. |
+| 8 | AARRR framework — 5 stages in order | Acquisition → Activation → Retention → Referral → Revenue. Exam tip: a drop right after signup (before first core action) = Activation failure, not Acquisition. |
+| 9 | JTBD — main job types tested | Functional, Emotional, Social. Exam tip: a scenario mentioning 'how it makes the user feel' or 'how others perceive them' points to Emotional/Social job, not Functional. |
+| 10 | MVP types commonly tested | Concierge (manual service delivery), Wizard of Oz (automated-looking front end, manual backend), Landing Page (demand test only), Single-Feature (one core feature built). Exam tip: 'manual behind the scenes, automated to the user' = Wizard of Oz, not Concierge. |
+| 11 | Exam fatigue management — proctoring-safe technique | Micro-pauses (a few seconds, eyes off screen) between question blocks without leaving the workstation. Exam tip: proctoring software often flags prolonged absence from camera view — don't take a full break unless the platform explicitly schedules one. |
+| 12 | Final review pass — priority when time is almost out | Lock in a best guess on every flagged question before time expires; only deep-re-read if time allows. Exam tip: an unanswered question is always wrong — never leave a flagged item blank. |

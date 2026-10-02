@@ -1,0 +1,16 @@
+## Chapter 8: Product Analytics Foundations and the North Star Metric — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | AARRR framework — what do the 5 letters stand for, in order? | Acquisition, Activation, Retention, Referral, Revenue. Exam tip: order matters — each stage feeds the next in the funnel. |
+| 2 | Vanity metric example: page views. What's the actionable equivalent for a SaaS product? | Weekly active users completing a core action (e.g., reports generated). Exam tip: actionable metrics tie directly to a decision; vanity metrics look good but don't inform one. |
+| 3 | North Star Metric selection criteria (3 key traits) | 1) Reflects customer value delivered 2) Leading indicator of revenue 3) Actionable by product teams. Exam tip: NSM should NOT be revenue itself — revenue is a lagging metric. |
+| 4 | Facebook's historical activation/aha-moment metric example | '7 friends in 10 days' — an activation metric shown to predict long-term retention. Exam tip: an NSM is often the activation metric, not a raw vanity count like total users. |
+| 5 | Guardrail metric — purpose | Prevents local optimization: ensures improving one metric (e.g., engagement, DAU) doesn't harm another (e.g., churn, support cost, uninstalls). Exam tip: pair every primary experiment metric with a guardrail. |
+| 6 | Cohort analysis — what does it reveal that a single retention curve can't? | How retention changes across different signup cohorts (e.g., by month) — reveals whether product improvements are actually working over time. Exam tip: flat retention across successive cohorts = shipped changes aren't improving retention. |
+| 7 | Aha-moment — definition | The specific early action/threshold where a user first experiences core product value, correlated with long-term retention. Exam tip: found by correlating early actions with Day-30+ retention, not by opinion or survey. |
+| 8 | Activation vs. Acquisition — key difference | Acquisition = user arrives (signup, install). Activation = user experiences value (reaches aha-moment). Exam tip: high acquisition + low activation signals an onboarding problem, not a marketing problem. |
+| 9 | Are 'total downloads' a vanity or actionable metric? | Vanity — it doesn't indicate engagement or value delivered. Actionable alternative: activation rate (% of downloads reaching the aha-moment). Exam tip: if you can't act on a metric to change strategy, it's vanity. |
+| 10 | Retention curve shape that signals product-market fit | A curve that flattens/plateaus rather than trending to zero. Exam tip: a 'smiling' or flattening retention curve = PMF signal; a curve declining to 0% = no PMF. |
+| 11 | Referral stage — example metrics | Viral coefficient (K-factor); invites sent/accepted. Exam tip: don't confuse Referral metrics with Revenue metrics — a referral signup is not a paying conversion. |
+| 12 | NSM is declining but all AARRR funnel-stage counts look flat — likely cause? | A guardrail metric (e.g., quality, latency, satisfaction) may be degrading and dragging down value delivered without showing up in raw funnel-stage counts. Exam tip: scenario questions test recognizing guardrail-driven NSM decline separate from funnel-stage metrics. |
